@@ -65,7 +65,7 @@ margin-bottom: 0;
 }
 .navbar .hdef{
     font-size: 65px;
-    
+    margin-top: 160px;
 
 }
 .sec1 .sdiv1-h{
@@ -243,11 +243,14 @@ textarea{
 }
 footer{
     text-align: center;
+    margin-top: 89px;
+    background-color: white;
 
 }
 .f-h{
     font-size: 100px;
     color:#4E47FF;
+    margin-bottom:8px;
     
 
 }
@@ -258,10 +261,21 @@ footer{
 }
 ul{
     list-style: none;
+    gap:48px;
+    display: flex;
+    margin-left: 519px;
     
 }
-
-li{
-    display: inline;
-
+button:hover{
+    background-color: #4d47ff5a;
+    cursor: pointer;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #8987A1;
+}
+hr{
+    color: #8987A1;
+   
 }
